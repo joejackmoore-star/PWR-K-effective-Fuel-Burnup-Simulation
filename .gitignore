@@ -5,6 +5,7 @@ __pycache__/
 venv/
 env/
 .pytest_cache/
+.vscode/
 
 # OpenMC simulation outputs
 depletion_results.h5
