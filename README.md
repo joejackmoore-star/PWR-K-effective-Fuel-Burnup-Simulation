@@ -66,8 +66,6 @@ running either script:
 
 | Variable | Default | Purpose |
 |---|---|---|
-| `OPENMC_CROSS_SECTIONS` | `/home/asus/nuclear_data/endfb-vii.1-hdf5/cross_sections.xml` | Path to your cross-section library's `cross_sections.xml` |
-| `OPENMC_CHAIN_FILE` | `/home/asus/nuclear_data/chain_casl_pwr.xml` | Path to a depletion chain file matching your cross-section library |
 | `OPENMC_BATCHES` | `40` | Total number of criticality batches |
 | `OPENMC_INACTIVE` | `10` | Number of inactive (source convergence) batches |
 | `OPENMC_PARTICLES` | `500` | Particles per batch |
