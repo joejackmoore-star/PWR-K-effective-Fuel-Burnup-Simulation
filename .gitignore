@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# OpenMC simulation outputs
+depletion_results.h5
+openmc_simulation_n*.h5
+particle_*.h5
+statepoint.*.h5
+summary.h5
+tallies.out
+
+# Generated plots and plot settings
+assembly_xy.png
+keff_vs_time.png
+plot_settings.pkl
